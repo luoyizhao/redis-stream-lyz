@@ -1,0 +1,31 @@
+{
+  "name": "redis-stream-lyz",
+  "version": "1.0.4",
+  "description": "redis-stream-lyz",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node ./test/test-stream.test.ts",
+    "build": "tsc"
+  },
+  "files": [
+    "dist",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luoyizhao/redis-stream-lyz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luoyizhao/redis-stream-lyz/issues"
+  },
+  "types": "./dist/index.d.ts",
+  "author": "luoyizhao",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ioredis": "^5.0.0",
+    "ioredis": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.27"
+  }
+}
